@@ -1,0 +1,435 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100%;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.logo img{
+    width: 61px;
+}
+.word ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 5rem;
+
+}
+.word ul li a{
+    text-decoration: none;
+    color: black    ;
+
+}
+.icon ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+.icon ul a{
+    color: black;
+}
+.icon ul li i{
+    font-size: 20px;
+}
+.intoduction-me{
+    margin-top: 75px;
+}
+.intoduction-me h1{
+    text-align: center;
+    font-size: 25px;
+}
+.intro-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+.intro-me h3{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.intro-me ul li{
+    font-weight: 100;
+}
+.intro{
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 364px;
+}
+.biography{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80px;
+}
+.biography ul {
+    list-style: none;
+}
+.contact{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 80px;
+}
+.contact ul {
+    list-style: none;
+}
+.contact ul li a{
+    color: black;
+    text-decoration: none;
+}
+.dash{
+    display: flex;
+    justify-content: center;
+    border: 1px dashed black;
+    padding: 25px;
+    border-radius: 50% ;
+}
+.my-img{
+    display: flex;
+    justify-content: center;
+    border-radius: 500px 500px 500px 500px ;
+}
+.my-img img{
+    border-radius: 50%;
+    width: 550px;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 364px;
+    height: 534.45px;
+}
+.right ul {
+    list-style: none;
+}
+.right ul li{
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: flex-start;
+}
+.services ul {
+    list-style: none;
+}
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.sat{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+
+}
+.project-done{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 115px;
+
+}
+.line{
+    border: 1px solid black;
+   margin: 50px 70px;
+}
+
+.my-advantages{
+    margin-bottom: 35px;
+
+}
+.my-advantages h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3rem;
+}
+.parent h3{
+    font-weight: lighter;
+}
+.card-par{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background: rgba(6, 5, 5, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 150px;
+    border-radius: 500px;
+    height: 229px;
+    transition: .39s ease-in-out;
+
+}
+.card:hover{
+    scale: 1.2;
+    background-color: blue;
+    box-shadow: 0 5px 25px dodgerblue;
+}
+.card img{
+    width: 142px;
+    border-radius: 500px;
+    padding: 15%;
+    height: 158.76px;
+
+}
+.my-edu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 25px;
+}
+.edu h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.my-edu ul li{
+    list-style: none;
+}
+.my-edu ul li span{
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+.cairo{
+    width: 248.11px;
+}
+.train{
+    width: 248.11px;
+}
+.Amit{
+    width: 248.11px;
+}
+.egfwd{
+    width: 248.11px;
+}
+.projects h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.project-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+}
+.project-parent a{
+    color: black;
+    text-decoration: none;
+}
+.embedded{
+    text-align: center;
+    width: 369.11px;
+    background: rgba(6, 5, 5, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20%;
+    transition: .35s ease-in;
+
+
+}
+.embedded img{
+    width: 250px;
+    height: 143.91px;
+
+}
+.embedded:hover{
+    scale: 1.2;
+}
+.C{
+    text-align: center;
+    background: rgba(6, 5, 5, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20%;
+    width: 388px;
+    transition: .35s ease-in;
+
+
+}
+.C img{
+    width: 250px;
+}
+.C:hover{
+    scale: 1.2;
+}
+.fitness{
+    text-align: center;
+    width: 369.11px;
+    background: rgba(6, 5, 5, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20%;
+    transition: .35s ease-in;
+
+
+
+
+}
+.fitness img{
+    width: 250px;
+    height: 143.91px;
+}
+.fitness:hover{
+    scale: 1.2;
+}
+.talk{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.talk-dash{
+    display: flex;
+    justify-content: center;
+    border: 1px dashed black;
+    padding: 25px;
+    border-radius: 50%;
+    width: 250px;
+    align-items: center;
+    height: 250px;
+}
+.talk a{
+    text-decoration: none;
+    color: black;
+}
+.talk ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 37px;
+}
+.copy ul{
+    display: flex;
+    list-style: none;
+}
+.footer{
+    margin-bottom: 35px;
+}
+.linef{
+    border: 1px solid black;
+   margin: 20px 70px;
+}
+@media (max-width:641px){
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+.word ul{
+    gap: 5px;
+}
+.logo img{
+    margin-left: 15px;
+    width: 30px;
+
+}
+.icon ul {
+    gap: 8px;
+}
+.intoduction-me h1{
+    font-size: 15px;
+}
+.intro-me{
+    display: block;
+}
+.my-img img{
+    width: 165px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 83px;
+    margin-right: 62px;
+    font-size: 9px;
+}
+.right{
+    width: 83px;
+    margin-left: 62px;
+    font-size: 9px;
+    display: none;
+}
+.C{
+    width: 296px
+}
+.services{
+    width: 281px;
+
+}
+}
+@media (max-width:281px){
+    .intoduction-me h1{
+        font-size: 12px;
+    }
+    .intro-me{
+        display: block;
+    }
+    .my-img img{
+        width: 165px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .services{
+        width: 281px;
+    }
+    .contact{
+        width: 281px;
+
+    }
+}
+ @media (min-width:900px) and ( max-width:1025px){
+    .dash{
+        width: 165px;
+    }
+    .my-img img{
+        width: 165px;
+    }
+    .left{
+        width: 234px;
+    /* margin-left: 122px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+} 
